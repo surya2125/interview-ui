@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@assets": ["assets"],
+      "@Layout": ["layout"],
+      "@Components/*": ["components/*"],
+      "@Pages/*": ["pages/*"],
+      "@Constants/*": ["constants/*"],
+      "@Interfaces/*": ["interfaces/*"],
+      "@Hooks/*": ["hooks/*"],
+      "@ErrorHandler/*": ["components/ErrorBoundry/*"]
+    }
+  }
+}

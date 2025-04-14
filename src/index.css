@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  
+  --biccasGreen: #54BD95;
+  font-family: 'poppins', sans-serif;
+}
+
+.no-scrollbar {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+html {
+  scroll-behavior: smooth;
+}

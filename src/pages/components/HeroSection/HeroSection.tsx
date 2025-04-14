@@ -43,7 +43,7 @@ const ImageSection = () => {
       </div>
 
       {/* Floating Card: Amount */}
-      <div className="absolute left-1/7 top-[30px] flex h-[78px] w-[262px] -translate-x-1/2 items-center gap-2 rounded-xl bg-white px-4 py-2 shadow-lg">
+      <div className="absolute left-1/5 top-[30px] flex h-[78px] w-[262px] -translate-x-1/2 items-center gap-2 rounded-xl bg-white px-4 py-2 shadow-lg">
         <div className="flex w-full items-center border-b border-gray-300 pb-1">
           <div className="w-full">
             <span className="text-[12px] text-[#A9A7B6]">Enter Amount</span>
@@ -61,7 +61,7 @@ const ImageSection = () => {
       </div>
 
       {/* Floating Card: Income */}
-      <div className="absolute bottom-4 left-1/4 flex h-[70px] w-[138px] -translate-x-1/2 flex-col justify-center rounded-xl bg-white p-3 shadow-md">
+      <div className="absolute bottom-4 left-1/3 flex h-[70px] w-[138px] -translate-x-1/2 flex-col justify-center rounded-xl bg-white p-3 shadow-md">
         <div className="text-xs text-gray-400">Total Income</div>
         <div className="flex justify-between">
           <div className="text-[16px] font-medium">$245.00</div>

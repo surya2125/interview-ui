@@ -57,7 +57,7 @@ const FeatureSection = () => {
         <div
           id='feature-scroll-container'
           ref={scrollRef}
-          className='flex gap-[40px] overflow-x-auto whitespace-nowrap pb-2 scroll-smooth no-scrollbar'
+          className='flex gap-[40px] justify-between 2xl:justify-evenly overflow-x-auto whitespace-nowrap pb-2 scroll-smooth no-scrollbar'
         >
           {otherFeatures.map((feature, idx) => (
             <FeatureCard description={feature.description} title={feature.title} key={`feature-card-${idx}`} img={feature.img} />

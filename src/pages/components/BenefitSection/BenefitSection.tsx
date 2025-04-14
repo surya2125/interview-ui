@@ -40,7 +40,7 @@ const BenefitSection = () => {
           </div>
 
           {/* Floating Elements */}
-          <div className="absolute top-[30px] left-1/3 w-[262px] min-w-fit h-[78px] -translate-x-1/2 bg-white rounded-xl shadow-lg px-4 py-2 flex items-center gap-2">
+          <div className="absolute top-[30px] left-1/6 w-[262px] min-w-fit h-[78px] -translate-x-1/2 bg-white rounded-xl shadow-lg px-4 py-2 flex items-center gap-2">
             <div>
               {" "}
               <img

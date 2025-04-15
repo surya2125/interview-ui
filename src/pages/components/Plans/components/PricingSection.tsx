@@ -1,41 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import PricingCard from "./PricingCard";
-import { pricings } from '@Constants';
+import { pricings, sliderSettings } from '@Constants';
 
 const PricingSection: React.FC = () => {
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    centerMode: false, // <-- disable by default
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: false, // explicitly disable centerMode
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          centerMode: true, // enable on desktop
-        },
-      },
-    ],
-  };
-
-
-
-
   return (
     <div id='pricing' className="py-10 px-4 md:px-0">
       {/* Slick carousel for small screens */}

@@ -158,4 +158,33 @@ const products = [
   { label: 'Pricing product', link: '/products/pricing-product' },
 ];
 
-export { navLinks, collabs, features, ratings, otherFeatures, benefits, pricings, products, supports, helpAndSolutions }
+const sliderSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  centerMode: false, // <-- disable by default
+  autoplay: true,
+  autoplaySpeed: 3000,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: false, // explicitly disable centerMode
+      },
+    },
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        centerMode: true, // enable on desktop
+      },
+    },
+  ],
+};
+
+export { navLinks, collabs, features, ratings, otherFeatures, benefits, pricings, products, supports, helpAndSolutions, sliderSettings }

@@ -2,7 +2,10 @@ import { IAutoScrollOptions } from '@Interfaces'
 import { useEffect, RefObject } from 'react'
 
 
-
+/**
+ * Thi hook is used for scroll effect of some containers in mobile view
+ * It takes two params ref of element and options
+ */
 const useAutoScroll = (
   ref: RefObject<HTMLElement | null>,
   { scrollAmount, interval = 30, scrollPercentage, enabled = true }: IAutoScrollOptions = {}

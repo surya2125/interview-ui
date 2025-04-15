@@ -5,12 +5,6 @@ import FeatureItem from './components/FeatureItem';
 import { features, ratings } from '@Constants';
 import Ratings from './components/Rating';
 
-
-
-
-
-
-
 const TestimonialSection = () => {
   const commonFlexClasses = "flex items-start max-[425px]:flex-col max-[425px]:justify-center max-md:items-center gap-[21px] max-md:bg-[#fbfbfb] max-md:shadow-md max-md:border-1 max-md:border-gray-300 max-md:px-[32px] max-md:py-[16px]";
 

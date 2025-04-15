@@ -2,7 +2,10 @@
 import { ErrorBoundaryProps, ErrorBoundaryState } from '@Interfaces';
 import React from "react";
 
-
+/**
+ * Error handler which handles any render failure in the app
+ * It returns a fallback state in any failure
+ */
 
 export class ErrorBoundary extends React.Component<
   ErrorBoundaryProps,
